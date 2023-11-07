@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.objects {
+    display: flex;
+}
+
+.objects input {
+    width:200px;
+}
+
+.objButton {
+    padding:2px;
+    width: 40px;
+}
+
+.activity button {
+    display: block; 
+    padding: 4px;
+}
+
+.saved {
+    font-family: monospace;
+    font-size: 18px;
+}
